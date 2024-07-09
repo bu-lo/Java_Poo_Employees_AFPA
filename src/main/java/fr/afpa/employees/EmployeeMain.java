@@ -23,7 +23,7 @@ class EmployeeMain {
 		} catch (Exception exceptionToProcess) {
 			// CODE POUR GERER L'EXCEPTION
 			// dans notre cas juste un message d'erreur
-			exceptionToProcess.getMessage(); // appelle le message de l'exception ***
+			System.out.println(exceptionToProcess.getMessage()); // appelle le message de l'exception ***
 		}
 
 		// modifier NOM avec un setter
@@ -32,7 +32,7 @@ class EmployeeMain {
 
 		} catch (Exception exceptionToProcess) {
 			// CODE POUR GERER L'EXCEPTION - ici idem message d'erreur
-			exceptionToProcess.getMessage(); // appelle le message de l'exception ***
+			System.out.println(exceptionToProcess.getMessage()); // appelle le message de l'exception + affichage ***
 		}
 
 		// modifier PRENOM avec un setter
@@ -41,7 +41,7 @@ class EmployeeMain {
 
 		} catch (Exception exceptionToProcess) {
 			// CODE POUR GERER L'EXCEPTION - ici idem message d'erreur
-			exceptionToProcess.getMessage(); // appelle le message de l'exception ***
+			System.out.println(exceptionToProcess.getMessage()); // appelle le message de l'exception + affichage***
 		}
 
 		// modifier DATE
@@ -50,7 +50,7 @@ class EmployeeMain {
 
 		} catch (Exception exceptionToProcess) {
 			// CODE POUR GERER L'EXCEPTION - ici idem message d'erreur
-			exceptionToProcess.getMessage(); // appelle le message de l'exception ***
+			System.out.println(exceptionToProcess.getMessage()); // appelle le message de l'exception + affichage***
 		}
 
 
